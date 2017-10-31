@@ -13,3 +13,7 @@ end
 def multiply(param1, param2)
   param1 * param2
 end
+
+def divide(param1, param2)
+  param1 / param2
+end
