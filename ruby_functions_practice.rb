@@ -46,3 +46,22 @@ def number_to_short_month_name(number)
   cabbage = number_to_full_month_name(number)
   return cabbage[0..2]
 end
+
+def volume_of_cube(length)
+  volume = length ** 3
+  return volume
+end
+
+def volume_of_sphere(radius)
+  volume = Math::PI * 4/3 * radius**3
+  return volume.round(2)
+end
+
+def fahrenheit_to_celsius(fahrenheit)
+  celsius = (fahrenheit - 32) * 5 / 9
+  return celsius
+end
+
+# Subtract 32 from the Fahrenheit temperature.
+# Multiply this number by 5.
+# Divide this number by 9.
