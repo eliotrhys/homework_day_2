@@ -1,5 +1,5 @@
-def return_10
-  return 10
+def return_10(param)
+  return param
 end
 
 def add (param1, param2)

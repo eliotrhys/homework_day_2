@@ -4,7 +4,7 @@ require_relative( '../ruby_functions_practice' )
 class Functions_Practice < MiniTest::Test
 
   def test_return_10()
-    return_10_result = return_10()
+    return_10_result = return_10(10)
     assert_equal( 10, return_10_result )
   end
 
